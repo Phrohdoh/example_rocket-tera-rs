@@ -1,0 +1,7 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <span>hi {{ name | reverse }}, your ticket number is {{ number }} {% if number is odd %} which is odd {% endif %}</span>
+    </body>
+</html>
